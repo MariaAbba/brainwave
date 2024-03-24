@@ -68,8 +68,7 @@ const Collaboration = () => {
                       height={app.height}
                       alt={app.title}
                       src={app.icon}
-                      alt="app"
-                    />
+                                         />
                   </div>
                 </li>
               ))}
