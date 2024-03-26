@@ -98,17 +98,29 @@ const Services = () => {
                             : ""
                         }
                       >
-                        <img src={item}
-                        width={24}
-                        height={24}
-                        alt={item} />
+                        <img src={item} width={24} height={24} alt={item} />
                       </div>
                     </li>
                   ))}
                 </ul>
               </div>
+
+              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+                <img
+                  src={service3}
+                  className="w-full h-full object-cover"
+                  width={520}
+                  height={400}
+                  alt="Scary Robot"
+                />
+
+                <VideoChatMessage />
+                <VideoBar />
+              </div>
             </div>
           </div>
+
+          <Gradient /> 
         </div>
       </div>
     </Section>
