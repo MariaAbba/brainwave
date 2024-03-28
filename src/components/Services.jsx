@@ -77,8 +77,8 @@ const Services = () => {
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Video Generation</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world's most powerful AI photo and video art generation
-                  engine. What will you create?
+                  The world&apos;s most powerful AI photo and video art
+                  generation engine. What will you create?
                 </p>
 
                 <ul className="flex items-center justify-between">
@@ -120,7 +120,7 @@ const Services = () => {
             </div>
           </div>
 
-          <Gradient /> 
+          <Gradient />
         </div>
       </div>
     </Section>
